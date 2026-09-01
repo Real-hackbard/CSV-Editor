@@ -20,6 +20,7 @@ CSV editor is a tool for viewing and modifying CSV (Comma Separated Values) file
 <img width="700" height="462" alt="Editor" src="https://github.com/user-attachments/assets/5a448c25-ddd6-44e4-be09-955ca0256878" />
 
 <br>
+<br>
 
 # Viewer
 
@@ -30,8 +31,9 @@ CSV can be informally described as [plain text](https://en.wikipedia.org/wiki/Pl
 <img width="700" height="462" alt="Viewer" src="https://github.com/user-attachments/assets/7c72cf8a-55d4-4f3c-b647-237549458b46" />
 
 </br>
+<br>
 
-Example
+### Example
 
 ```txt
 id,name,email
@@ -40,6 +42,14 @@ id,name,email
 ```
 
 The format is more formally described in the 2005 technical standard [RFC](https://en.wikipedia.org/wiki/Request_for_Comments) [4180](https://www.rfc-editor.org/info/rfc4180/) which codifies the CSV format and defines the [MIME type](https://en.wikipedia.org/wiki/Media_type) text/csv for the handling of text-based fields. Among its requirements:
+
+* A line is terminated per MS-DOS-style: carriage return and line feed (CR/LF) sequence
+* A line terminator is optional for the last line
+* The data can start with a header record but with no way to test whether the first line is, in fact, a header, care is * required when importing
+* Each record should contain the same number of fields
+* A field containing a comma, double quote or line terminator character should be enclosed in double quotes
+* Any field may be enclosed in double quotes
+* If a field is enclosed in double quotes, then a double quote embedded in the field must be represented by a sequence of two double quotes
 
 
 # How CSV Editors Work:
