@@ -11,7 +11,7 @@
 
 </br>
 
-# Editor
+# :speech_balloon: Editor
 
 CSV editor is a tool for viewing and modifying CSV (Comma Separated Values) files, which store data in a plain text, tabular format. While simple text editors can be used, dedicated CSV editors often provide a spreadsheet-like interface, offering features like automated delimiter detection, custom shortcuts, and the ability to handle large files, making data manipulation easier and preventing data corruption. Options range from simple, privacy-focused online tools to robust desktop applications, with some offering advanced features like data analysis, scripting with JavaScript, and even support for massive datasets beyond what traditional spreadsheets can handle.
 
@@ -22,7 +22,7 @@ CSV editor is a tool for viewing and modifying CSV (Comma Separated Values) file
 <br>
 <br>
 
-# Viewer
+# :speech_balloon: Viewer
 
 CSV can be informally described as [plain text](https://en.wikipedia.org/wiki/Plain_text) data consisting of one record per line, where each line has the same sequence of fields separated by a comma. For a simple example:
 
@@ -33,7 +33,7 @@ CSV can be informally described as [plain text](https://en.wikipedia.org/wiki/Pl
 </br>
 <br>
 
-### Example
+### :speech_balloon: Example
 
 ```txt
 id,name,email
@@ -68,7 +68,7 @@ This example illustrates that a CSV cannot be parsed by naïvely splitting the d
 
 <br>
 
-# How CSV Editors Work:
+# :wrench: How CSV Editors Work:
 * Tabular View: They display CSV data in a visual grid, allowing you to see rows and columns as you would in a spreadsheet. 
 * File Upload/Selection: You select or upload a CSV file directly into the editor. 
 * In-Browser Editing: Many online editors allow you to make changes directly within the web browser without needing to download and re-upload the file. 
