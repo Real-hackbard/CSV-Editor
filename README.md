@@ -41,7 +41,7 @@ Multiple-document interface (MDI) is a [graphical user interface](https://en.wik
 * MDI child windows behave differently from those in [single-document interface](https://en.wikipedia.org/wiki/Multiple-document_interface#Comparison_with_single-document_interface) applications, requiring users to learn two subtly different windowing concepts. Similarly, the MDI parent window behaves like the desktop in many respects, but has enough differences to confuse some users.
 * Deeply nested, branching hierarchies of child windows can be confusing.
 Many window managers have built-in support for manipulating groups of separate windows, which is typically more flexible than MDI in that windows can be grouped and ungrouped arbitrarily. A typical policy is to group automatically windows that belong to the same application. This arguably makes MDI redundant by providing a solution to the same problem.
-* Controls and hotkeys learned for the MDI application may not apply to others, whereas with an advanced Window Manager, more behavior and user preference settings are shared across client applications on the same system
+* Controls and hotkeys learned for the MDI application may not apply to others, whereas with an advanced [Window Manager](https://en.wikipedia.org/wiki/Window_manager), more behavior and user preference settings are shared across client applications on the same system
 
 
 
