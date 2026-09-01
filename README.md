@@ -51,6 +51,20 @@ The format is more formally described in the 2005 technical standard [RFC](https
 * Any field may be enclosed in double quotes
 * If a field is enclosed in double quotes, then a double quote embedded in the field must be represented by a sequence of two double quotes
 
+* A more complex example, with some of the fields enclosed in double quotes, and fields containing special characters (double quotes, line terminators, commas):
+
+```txt
+Year,Make,Model,Description,Price
+1997,Ford,E350,"ac, abs, moon",3000.00
+1999,Chevy,"Venture ""Extended Edition""","",4900.00
+1999,Chevy,"Venture ""Extended Edition, Very Large""","",5000.00
+1996,Jeep,Grand Cherokee,"MUST SELL!
+air, moon roof, loaded",4799.00
+```
+
+This example illustrates that a CSV cannot be parsed by naïvely splitting the data by line terminators into lines, and then each line by commas. The above data, when correctly parsed, can be represented as this table:
+
+
 
 <br>
 
