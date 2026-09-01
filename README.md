@@ -67,10 +67,10 @@ This example illustrates that a CSV cannot be parsed by naïvely splitting the d
 
 | Year | Make | Model | Description | Price |
 | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: |
-| Zelle 1,1     | Zelle 1,2     | Zelle 1,3     | Zelle 1,3     | Zelle 1,3     |
-| Zelle 2,1     | Zelle 2,2     | Zelle 2,3     | Zelle 2,3     | Zelle 2,3     |
-| Zelle 1,1     | Zelle 1,2     | Zelle 1,3     | Zelle 1,3     | Zelle 1,3     |
-| Zelle 2,1     | Zelle 2,2     | Zelle 2,3     | Zelle 2,3     | Zelle 2,3     |
+| 1997     | Ford     | E350     | ac, abs, moon     | 3000.00     |
+| 1999     | Chevy     | Venture "Extended Edition     | ac     | 4900.00     |
+| 1999     | Chevy     | Venture "Extended Edition, Very Large"     | abs     | 5000.00     |
+| 1996     | Jeep     | Grand Cherokee     | air, moon roof, loaded     | 4799.00     |
 
 
 <br>
