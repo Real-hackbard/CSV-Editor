@@ -24,14 +24,15 @@ CSV editor is a tool for viewing and modifying CSV (Comma Separated Values) file
 
 Multiple-document interface (MDI) is a [graphical user interface](https://en.wikipedia.org/wiki/Graphical_user_interface) in which multiple windows reside under a single parent window. Such systems often allow child windows to embed other windows inside them as well, creating complex [nested hierarchies](https://en.wikipedia.org/wiki/Hierarchy#Nested_hierarchy). This contrasts with single-document interfaces (SDI) where all windows are independent of each other.
 
-## :heavy_check_mark: Advantages
-* With multiple-document interfaces (and also tabbed document interfaces), a single menu bar and/or toolbar is shared between all child windows, reducing clutter and increasing efficient use of screen space. This argument is less relevant on an operating system which uses a common menu bar.
+## :heavy_check_mark: MDI Advantages
+* With multiple-document interfaces (and also [tabbed document interfaces](https://en.wikipedia.org/wiki/Tab_(interface))), a single menu bar and/or toolbar is shared between all child windows, reducing clutter and increasing efficient use of screen space. This argument is less relevant on an operating system which uses a common menu bar.
 * An application's child windows can be hidden/shown/minimized/maximized as a whole.
 * Features such as "Tile" and "Cascade" can be implemented for the child windows.
 * Authors of cross-platform applications can provide their users with consistent application behaviour between platforms.
 * If the windowing environment and OS lack good window management, the application author can implement it themselves.
 * Modularity: An advanced window manager can be upgraded independently of the applications.
 
+## :x: MDI Disadvantages
 
 
 
