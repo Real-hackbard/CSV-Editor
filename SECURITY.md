@@ -8,7 +8,7 @@ currently being supported with security updates.
 | Version | Supported          |
 | ------- | ------------------ |
 | 1.0.x   | :white_check_mark: |
-| 1.1.x   | :white_check_mark: Fix Abort Read Progress; Correctly arranging the columns; Editing entries in the viewer; Export Viewer list CSV, Excel; Determine the correct column size; Search entries mode; search MDI duplicates; |
+| 1.1.x   | :white_check_mark: Fix Abort Read Progress; Correctly arranging the columns in Viewer; Editing entries in the viewer; Export Viewer list CSV, Excel; Determine the correct column size; Search entries mode; search MDI duplicates; |
 
 ## Reporting a Vulnerability
 
