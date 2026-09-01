@@ -22,6 +22,8 @@ CSV editor is a tool for viewing and modifying CSV (Comma Separated Values) file
 <br>
 <br>
 
+Multiple-document interface (MDI) is a [graphical user interface](https://en.wikipedia.org/wiki/Graphical_user_interface) in which multiple windows reside under a single parent window. Such systems often allow child windows to embed other windows inside them as well, creating complex [nested hierarchies](https://en.wikipedia.org/wiki/Hierarchy#Nested_hierarchy). This contrasts with single-document interfaces (SDI) where all windows are independent of each other.
+
 # :speech_balloon: Viewer
 
 CSV can be informally described as [plain text](https://en.wikipedia.org/wiki/Plain_text) data consisting of one record per line, where each line has the same sequence of fields separated by a comma. For a simple example:
