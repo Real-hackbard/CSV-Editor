@@ -1,31 +1,53 @@
-UPX is a free, secure, portable, extendable, high-performance executable packer for several executable formats.
+LIZENZ [v1.0 2001.09.11-2026.09.01]
+© Copyright 2026 by hackbard
+Germany
+===================================
 
-Introduction
-UPX is an advanced executable file compressor. UPX will typically reduce the file size of programs and DLLs by around 50%-70%, thus reducing disk space, network load times, download times and other distribution and storage costs.
 
-Programs and libraries compressed by UPX are completely self-contained and run exactly as before, with no runtime or memory penalty for most of the supported formats.
+[German]
+DIESES PROGRAM:
 
-UPX supports a number of different executable formats, including Windows programs and DLLs, macOS apps and Linux executables.
+1. Lizenz
+=========
+DIESE SOFTWARE WIRD "SO WIE SIE IST" ZUR VERFÜGUNG GESTELLT, OHNE GEWÄHRLEISTUNG 
+IRGENDEINER ART. SIE HABEN DAS RECHT ES WEITER ZU VERTEILEN ODER DEN QUELLCODE ZU 
+MODIFIZIEREN.
 
-UPX is free software distributed under the term of the GNU General Public License. Full source code is available.
+DIESE SOFTWARE DARF NUR FÜR NICHT KOMMERZIELLE ZWECKE EINGESETZT WERDEN.
 
-UPX may be distributed and used freely, even with commercial applications.
 
-Overview
-UPX strengths in a nutshell:
+2. Haftung
+==========
+IN KEINEM FALL KANN DER AUTOR HAFTBAR GEMACHT WERDEN FÜR IRGENDWELCHE SCHÄDEN, 
+GLEICH WELCHER ART.
 
-secure: as UPX is documented Open Source since many years any relevant Security/Antivirus software is able to peek inside UPX compressed apps to verify them
-excellent compression ratio: typically compresses better than Zip, use UPX to decrease the size of your distribution!
-very fast decompression: more than 500 MB/sec on any reasonably modern machine
-no memory overhead for your compressed executables because of in-place decompression
-safe: you can list, test and unpack your executables. Also, a checksum of both the compressed and uncompressed file is maintained internally.
-universal: UPX can pack a number of executable formats, including Windows programs and DLLs, macOS apps and Linux executables
-portable: UPX is written in portable endian-neutral C++
-extendable: because of the class layout it's very easy to add new executable formats or new compression algorithms
-free: UPX is distributed with full source code under the terms of the GNU General Public License v2+; either under the pure GPLv2+, or (at your option) under the GPLv+2 with special exceptions and restrictions granting the free usage for all binaries including commercial programs as stated in the UPX License Agreement
-You probably understand now why we call UPX the "Ultimate Packer for eXecutables"
 
-Copyright
-UPX is Copyright © 2024 by Markus F.X.J. Oberhumer, László Molnár & John F. Reiser.
+3. COPYRIGHT
+============
+Die Software wird sowohl durch Urheberrechtsgesetze und internationale 
+Urheberrechtsverträge geschützt, als auch durch andere Gesetze und Vereinbarungen 
+über geistiges Eigentum.
 
-The term UPX is a shorthand for the Ultimate Packer for eXecutables. All trademarks, brands, and names are the property of their respective owners.
+[English]
+THIS PROGRAM:
+
+1. License
+=========
+THIS SOFTWARE IS PROVIDED "AS IS" WITHOUT ANY WARRANTIES
+ANY KIND. YOU HAVE THE RIGHT TO REDISTRIBUTE OR RECEIVE THE SOURCE CODE
+MODIFY.
+
+USE OF THIS SOFTWARE FOR NON-COMMERCIAL PURPOSES ONLY.
+
+
+2. Liability
+==========
+IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DAMAGES,
+NO MATTER WHAT KIND.
+
+
+3. COPYRIGHT
+============
+The software is protected by both copyright laws and international
+protected by copyright treaties, as well as other laws and agreements
+about intellectual property.
