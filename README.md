@@ -23,6 +23,8 @@ CSV editor is a tool for viewing and modifying CSV (Comma Separated Values) file
 
 # Viewer
 
+CSV can be informally described as [plain text](https://en.wikipedia.org/wiki/Plain_text) data consisting of one record per line, where each line has the same sequence of fields separated by a comma. For a simple example:
+
 </br>
 
 <img width="700" height="462" alt="Viewer" src="https://github.com/user-attachments/assets/7c72cf8a-55d4-4f3c-b647-237549458b46" />
