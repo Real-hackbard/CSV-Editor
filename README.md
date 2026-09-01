@@ -53,6 +53,8 @@ The format is more formally described in the 2005 technical standard [RFC](https
 
 * A more complex example, with some of the fields enclosed in double quotes, and fields containing special characters (double quotes, line terminators, commas):
 
+</br>
+
 ```txt
 Year,Make,Model,Description,Price
 1997,Ford,E350,"ac, abs, moon",3000.00
@@ -62,8 +64,11 @@ Year,Make,Model,Description,Price
 air, moon roof, loaded",4799.00
 ```
 
+</br>
+
 This example illustrates that a CSV cannot be parsed by naïvely splitting the data by line terminators into lines, and then each line by commas. The above data, when correctly parsed, can be represented as this table:
 
+</br>
 
 | Year | Make | Model | Description | Price |
 | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: |
@@ -72,6 +77,14 @@ This example illustrates that a CSV cannot be parsed by naïvely splitting the d
 | 1999     | Chevy     | Venture "Extended Edition, Very Large"     | abs     | 5000.00     |
 | 1996     | Jeep     | Grand Cherokee     | air, moon roof, loaded     | 4799.00     |
 
+<br>
+
+Common challenges with CSV include:
+* Programs may not support line terminator characters within a field even when properly quoted
+* Programs may confuse a header line with data or interpret the first data line as a header
+* Double quotes in a field may not be parsed correctly
+
+In 2011, [Open Knowledge Foundation](https://en.wikipedia.org/wiki/Open_Knowledge_Foundation) (OKF) and various partners created a data protocols working group, which later evolved into the Frictionless Data initiative. One of the main formats they released was the Tabular Data Package. Tabular Data package was heavily based on CSV, using it as the main data transport format and adding basic type and schema metadata. (CSV lacks any type information to distinguish the string 1 from the number 1.) The Frictionless Data Initiative has also provided a standard CSV Dialect Description Format for describing different dialects of CSV, for example specifying the field separator or quoting rules.
 
 <br>
 
