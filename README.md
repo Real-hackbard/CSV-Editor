@@ -31,7 +31,17 @@ CSV can be informally described as [plain text](https://en.wikipedia.org/wiki/Pl
 
 </br>
 
-### How CSV Editors Work:
+Example
+
+```txt
+id,name,email
+1,John,john.doe@example.com
+2,Jane,janey72@test.org
+```
+
+
+
+# How CSV Editors Work:
 * Tabular View: They display CSV data in a visual grid, allowing you to see rows and columns as you would in a spreadsheet. 
 * File Upload/Selection: You select or upload a CSV file directly into the editor. 
 * In-Browser Editing: Many online editors allow you to make changes directly within the web browser without needing to download and re-upload the file. 
