@@ -25,14 +25,23 @@ CSV editor is a tool for viewing and modifying CSV (Comma Separated Values) file
 Multiple-document interface (MDI) is a [graphical user interface](https://en.wikipedia.org/wiki/Graphical_user_interface) in which multiple windows reside under a single parent window. Such systems often allow child windows to embed other windows inside them as well, creating complex [nested hierarchies](https://en.wikipedia.org/wiki/Hierarchy#Nested_hierarchy). This contrasts with single-document interfaces (SDI) where all windows are independent of each other.
 
 ## :heavy_check_mark: MDI Advantages
-* With multiple-document interfaces (and also [tabbed document interfaces](https://en.wikipedia.org/wiki/Tab_(interface))), a single menu bar and/or toolbar is shared between all child windows, reducing clutter and increasing efficient use of screen space. This argument is less relevant on an operating system which uses a common menu bar.
+* With multiple-document interfaces (and also [tabbed document interfaces](https://en.wikipedia.org/wiki/Tab_(interface))), a single [menu bar](https://en.wikipedia.org/wiki/Menu_bar) and/or [toolbar](https://en.wikipedia.org/wiki/Toolbar) is shared between all child windows, reducing clutter and increasing efficient use of screen space. This argument is less relevant on an operating system which uses a common menu bar.
 * An application's child windows can be hidden/shown/minimized/maximized as a whole.
 * Features such as "Tile" and "Cascade" can be implemented for the child windows.
-* Authors of cross-platform applications can provide their users with consistent application behaviour between platforms.
+* Authors of [cross-platform](https://en.wikipedia.org/wiki/Cross-platform_software) applications can provide their users with consistent application behaviour between platforms.
 * If the windowing environment and OS lack good window management, the application author can implement it themselves.
-* Modularity: An advanced window manager can be upgraded independently of the applications.
+* Modularity: An advanced [window manager](https://en.wikipedia.org/wiki/Window_manager) can be upgraded independently of the applications.
 
 ## :x: MDI Disadvantages
+* Without an MDI frame window, floating toolbars from one application can clutter the workspace of other applications, potentially confusing users with the jumble of interfaces.
+* Can be tricky to implement on desktops using multiple monitors as the parent window may need to span two or more monitors, hiding sections.
+* Virtual desktops cannot be spanned by children of the MDI. However, in some cases, this is solvable by initiating another parent window; this is the case in Opera and Chrome, for example, which allows tabs/child windows to be dragged outside of the parent window to start their own parent window. In other cases, each child window is also a parent window, forming a new, "virtual" MDI .
+* MDI can make it more difficult to work with several applications at once, by restricting the ways in which windows from multiple applications can be arranged together without obscuring each other.
+* The shared menu might change, which may cause confusion to some users.
+* MDI child windows behave differently from those in single-document interface applications, requiring users to learn two subtly different windowing concepts. Similarly, the MDI parent window behaves like the desktop in many respects, but has enough differences to confuse some users.
+* Deeply nested, branching hierarchies of child windows can be confusing.
+Many window managers have built-in support for manipulating groups of separate windows, which is typically more flexible than MDI in that windows can be grouped and ungrouped arbitrarily. A typical policy is to group automatically windows that belong to the same application. This arguably makes MDI redundant by providing a solution to the same problem.
+* Controls and hotkeys learned for the MDI application may not apply to others, whereas with an advanced Window Manager, more behavior and user preference settings are shared across client applications on the same system
 
 
 
