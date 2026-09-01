@@ -65,6 +65,13 @@ air, moon roof, loaded",4799.00
 This example illustrates that a CSV cannot be parsed by naïvely splitting the data by line terminators into lines, and then each line by commas. The above data, when correctly parsed, can be represented as this table:
 
 
+| Year | Make | Model | Description | Price |
+| :-----------: | :-----------: | :-----------: | :-----------: | :-----------: |
+| Zelle 1,1     | Zelle 1,2     | Zelle 1,3     | Zelle 1,3     | Zelle 1,3     |
+| Zelle 2,1     | Zelle 2,2     | Zelle 2,3     | Zelle 2,3     | Zelle 2,3     |
+| Zelle 1,1     | Zelle 1,2     | Zelle 1,3     | Zelle 1,3     | Zelle 1,3     |
+| Zelle 2,1     | Zelle 2,2     | Zelle 2,3     | Zelle 2,3     | Zelle 2,3     |
+
 
 <br>
 
