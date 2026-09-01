@@ -15,7 +15,7 @@ CSV editor is a tool for viewing and modifying CSV (Comma Separated Values) file
 
 </br>
 
-![CSV Editor](https://github.com/user-attachments/assets/739fa105-40f4-4b09-88b6-732010cdea60)
+<img width="700" height="462" alt="Viewer" src="https://github.com/user-attachments/assets/7c72cf8a-55d4-4f3c-b647-237549458b46" />
 
 </br>
 
