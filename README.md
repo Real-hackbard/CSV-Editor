@@ -52,6 +52,8 @@ The format is more formally described in the 2005 technical standard [RFC](https
 * If a field is enclosed in double quotes, then a double quote embedded in the field must be represented by a sequence of two double quotes
 
 
+<br>
+
 # How CSV Editors Work:
 * Tabular View: They display CSV data in a visual grid, allowing you to see rows and columns as you would in a spreadsheet. 
 * File Upload/Selection: You select or upload a CSV file directly into the editor. 
@@ -60,15 +62,15 @@ The format is more formally described in the 2005 technical standard [RFC](https
 * Data Export: After editing, you can download the modified data back as a CSV file.
 
 ### User-Friendly Interface:
-Provides a familiar spreadsheet-like experience for easy data viewing and editing. 
+* Provides a familiar spreadsheet-like experience for easy data viewing and editing. 
 
 ### Data Integrity:
-Prevents common issues like numerical truncation or unwanted type conversions that can occur in general-purpose applications like Excel. 
+* Prevents common issues like numerical truncation or unwanted type conversions that can occur in general-purpose applications like Excel. 
 
 ### Efficiency:
-Designed for speed, enabling quick loading and editing of both small and large CSV files. 
+* Designed for speed, enabling quick loading and editing of both small and large CSV files. 
 ### Customization:
-Some editors allow for custom keyboard shortcuts, UI themes, and cell formatting. 
+* Some editors allow for custom keyboard shortcuts, UI themes, and cell formatting. 
 
 ### Types of CSV Editors
 * Online Editors:
