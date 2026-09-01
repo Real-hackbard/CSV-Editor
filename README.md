@@ -11,7 +11,11 @@
 
 </br>
 
+# Editor
+
 CSV editor is a tool for viewing and modifying CSV (Comma Separated Values) files, which store data in a plain text, tabular format. While simple text editors can be used, dedicated CSV editors often provide a spreadsheet-like interface, offering features like automated delimiter detection, custom shortcuts, and the ability to handle large files, making data manipulation easier and preventing data corruption. Options range from simple, privacy-focused online tools to robust desktop applications, with some offering advanced features like data analysis, scripting with JavaScript, and even support for massive datasets beyond what traditional spreadsheets can handle.
+
+# Viewer
 
 </br>
 
