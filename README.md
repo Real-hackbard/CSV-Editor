@@ -39,7 +39,7 @@ id,name,email
 2,Jane,janey72@test.org
 ```
 
-The format is more formally described in the 2005 technical standard [RFC](https://en.wikipedia.org/wiki/Request_for_Comments) [4180](https://www.rfc-editor.org/info/rfc4180/) which codifies the CSV format and defines the MIME type text/csv for the handling of text-based fields. Among its requirements:
+The format is more formally described in the 2005 technical standard [RFC](https://en.wikipedia.org/wiki/Request_for_Comments) [4180](https://www.rfc-editor.org/info/rfc4180/) which codifies the CSV format and defines the [MIME type](https://en.wikipedia.org/wiki/Media_type) text/csv for the handling of text-based fields. Among its requirements:
 
 
 # How CSV Editors Work:
